@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;   
+    height: 50vh;
+    font-family: 'Red Hat Display';
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px auto;
+    background-color:  hsl(225, 100%, 98%);
+    width: 450px;
+    height: fit-content;
+    border-radius: 20px 20px ;
+    overflow: hidden;
+}
+
+.container .section-above{
+    margin: 30px;
+}
+
+.container .section-above .title {
+    margin-bottom: 30px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+.container .section-above .description {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin: 0 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.container .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 70px 0 90px;
+    justify-content: space-between;
+}
+
+.container .main .main-description {
+    align-items: center;
+    margin: 0 -30px 0 -70px;
+}
+
+.container .main .main-description .first {
+    color: hsl(223, 47%, 23%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container .main .main-description .second {
+    color: hsl(224, 23%, 55%);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container a{
+    color: hsl(223, 47%, 23%);
+    font-weight: 600;
+}
+
+.container .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .footer .change-button {
+    outline: none;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: hsl(225, 100%, 98%);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.container .footer .cancel-button {
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 20px;
+    cursor: pointer;
+}
